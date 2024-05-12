@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment</title>
+    <link rel="stylesheet" href="payment.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <main>
+        <div class="container">
+            <div class="left-box">
+                <div class="left-cont">
+                    <p>checkout</p>
+                    <div class="contact">
+                        <h3>Contact Details</h3>
+                        <label for="Email">Email ID</label><br>
+                        <input type="email" name="email" id="email" placeholder="Email...">
+                    </div>
+                    <h3 class="pay-head">Payment</h3>
+                    <div class="payment">
+                        <div class="options">
+                            <div class="box"><i class="fa-regular fa-credit-card"></i>Card</div>
+                            <div class="box"><i class="fa-brands fa-bitcoin"></i>Crypto</div>
+                            <div class="box"><i class="fa-solid fa-building-columns"></i>bank</div>
+                            <div class="box"><i class="fa-solid fa-ellipsis-vertical"></i>More</div>
+                        </div>
+                        <label>Card Number</label><br>
+                        <input type="number" name="card-num" id="card-num" placeholder="Card number....">
+                        <div class="card-info">
+                            <div class="box">
+                            <label for="expiry">Expiry</label><br>
+                            <input type="text" name="" id="" placeholder="MM / YY">
+                            </div>
+                            <div class="box">
+                                <label for="">CVC</label><br>
+                                <input type="text" name="" id="" placeholder="****">
+                            </div>
+                            <div class="box">
+                                <label for="">Country</label><br>
+                                <input type="text" name="" id="" placeholder="India">
+                            </div>
+                            <div class="box">
+                                <label for="">ZIP</label><br>
+                                <input type="text" name="" id="" placeholder="xxxx">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="right-box">
+                <h1>Order Summary</h1>
+                <div class="card">
+                    <div class="coupon">
+                    <h3>Enter Coupon Code</h3>
+                    <p class="apply"><input type="text" name="code" id="coupon" placeholder="COUPON CODE"><button id="apply">Apply Coupon</button></p>
+                    <div class="total">
+                        <ul><li>Sub Total</li><li><i class="fa-solid fa-indian-rupee-sign"></i> 4,700</li></ul>
+                        <ul><li>Taxes (if applicable)</li><li><i class="fa-solid fa-indian-rupee-sign"></i> 199</li></ul>
+                        <ul><li>Discount</li><li><i class="fa-solid fa-indian-rupee-sign"></i> 0</li></ul>
+                        <ul id="total"><li>Total</li><li><i class="fa-solid fa-indian-rupee-sign"></i>4,999</li></ul>
+                    </div>
+                </div>
+                <div class="pay">
+                    <button id="pay" onclick="window.location.href=`payment.html`">Pay Now <i class="fa-solid fa-indian-rupee-sign"></i> 4,999</button>
+                </div>
+                <div class="pay-logos">
+                    <img src="https://img.freepik.com/premium-vector/secure-payment-credit-card-icon-with-shield-secure-transaction-vector-stock-illustration_100456-11325.jpg" alt="">
+                    <img src="https://cdn.iconscout.com/icon/free/png-256/free-razorpay-1649771-1399875.png" alt="">
+                    <img src="https://static.vecteezy.com/system/resources/previews/010/177/796/non_2x/credit-card-payment-safe-secure-icon-free-vector.jpg" alt="">
+                </div>    
+        </div>
+    </div>
+</div>
+    </main>
+</body>
+</html>

@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+body{
+    height: 100%;
+    width: 100%;
+}
+.nav-bar{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    height: 7vh;
+    margin-top: 3vh;
+}
+.left-nav{
+    width: 65%;
+}
+.right-nav{
+    width: 35%;
+}
+.left-nav,.right-nav{
+    display: flex;
+    justify-content: space-evenly;
+}
+header li{
+    cursor: pointer;
+}
+header li:hover{
+    color: red;
+    text-decoration: underline;
+}
+header li:active{
+    transform: scale(0.9);
+}
+.container{
+    display: flex;
+}
+.left-box{
+    width: 60%;
+    opacity: 1;
+}
+.bg-blue{
+    width: 60%;
+    height: 100vh;
+    position: absolute;
+    opacity: 0.08;   
+    z-index: -1;
+}
+.main-cont{
+    height: 50%;
+    width: 50%;
+    margin-left: 5rem;
+    margin-top: 5rem;
+}
+.logo7{
+    width: 20vw;
+    height: 20vh;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNzLVzD7ntGyscE3aM39l4kpTidqSZ2_39RZeAWtIWMQ&s);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 2vw;
+}
+h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 3.3rem;
+    margin-top: -40px;
+}
+.orange{
+    color: orange;
+}
+p{
+    color: gray;
+    margin-top: 5px;
+}
+button{
+    margin-top: 10px;
+    font-size: 1.3rem;
+    background-color: black;
+    color: white;
+    padding: 6px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+@keyframes fill {
+    0%{
+        background-color: black;
+    }
+    50%{
+        background-color: rgb(255, 255, 255); 
+        color: black;   
+    }
+    100%{
+        background-color: black;
+    }
+}
+button:hover{
+    animation: fill 1.2s 0s ease-out 2;
+}
+button:active{
+    transform: scale(0.8);
+}
+.right-box{
+    opacity: 0.4;
+    z-index: -1;
+    width: 40%;
+    height: 100vh;
+    background-image: url("https://previews.123rf.com/images/oly5/oly51304/oly5130400435/19466593-water-color-like-cloud-on-old-paper-texture-background.jpg");
+}
+.sneaker{
+    position: absolute;
+    top: 10%;
+    right: 15%;
+    width: 40%;
+    height: 80%;
+}
+.logo{
+    margin-top: -5vh;
+    width: 10vw;
+    height: 15vh;
+}
+ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 1.5vw;
+}
+i{
+    font-size: 10px;
+}
+#search,.cart{
+    border: 1.5px solid rgb(170, 169, 169);
+    height: 4vh;
+    margin-top: 1vh;
+    padding: 5px;
+    border-radius: 10px;
+}
+input{
+    background-color: rgb(208, 231, 250);
+}
+.fa-magnifying-glass{
+    font-size: 15px;
+}
+.fa-bag-shopping{
+    font-size: 20px;
+    margin-right: 1vw;
+}
+.profile{
+    border-radius: 50%;
+    width: 4vw;
+    height: 8vh;
+}
+footer{
+    width: 100%;
+    height: 15vh;
+    background-color: orange;
+    position: absolute;
+    bottom: 0;
+}
+.foot-cont{
+    height: 12vh;
+    border: 2px solid orange;
+    margin: 0.5rem;
+}
+.foot-cont ul{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 15px;
+}
+.foot-cont ul li{
+    display: flex;
+}
+.foot-cont i{
+    font-size: 1.8rem;
+}
+.white{
+    color: rgb(253, 252, 252);
+}
+h4{
+    color: rgb(75, 74, 74);
+}

@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+.container{
+    display: flex;
+}
+.left-box,.right-box{
+    width: 50%;
+}
+.left-cont{
+    margin: 40px;
+    padding: 10px;
+    margin-top: 20px;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+p{
+    color: gray;
+}
+.contact{
+    margin-top: 10px;
+}
+.payment{
+    border: 1px solid gray;
+    border-radius: 5px;
+    box-shadow: 0 0 2px gray;
+    padding: 10px;
+}
+label{
+    font-size: 13px;
+}
+.left-cont input{
+    border: 1px solid gray;
+    padding: 5px;
+    width: 90%;
+    height: 5vh;
+    background-color: rgb(243, 243, 243);
+    border-radius: 5px;
+}
+h1{
+    text-align: center;
+    margin-top: 15px;
+}
+.pay-head{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.options{
+    display: flex;
+    justify-content: space-evenly;
+}
+.options .box{
+    border: 1px solid black;
+    border-radius: 3px;
+    width: 3.5vw;
+    height: 6vh;
+    margin: 5px;
+    padding: 10px;
+    text-align: center;
+}
+.card-info{
+    margin-top: 9px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.card-info input{
+    width: 15vw;
+    margin-right: 30px;
+}
+.card{
+    width: 65%;
+    height: 35%;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10vh;
+    border: 1px solid gray;
+    border-radius: 10px;
+    box-shadow: 0 0 20px gray;
+}
+#coupon{
+    background-color: rgb(241, 238, 238);
+    border: 1px solid gray;
+    padding: 8px;
+    margin: 10px;
+    border-radius: 10px;
+}
+#apply{
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: blue;
+    cursor: pointer;
+}
+.total{
+    font-size: 18px;
+    color: rgb(63, 63, 63);
+}
+.total ul{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+#total{
+    margin-top: 10px;
+    color: black;
+    font-weight: 700;
+}
+.pay{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+#pay{
+    background-color: rgb(218, 143, 5);
+    padding: 10px;
+    font-weight: 700;
+    color: white;
+    border-radius: 10px;
+    width: 13rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+#pay:hover{
+    transform: scale(1.1);
+}
+#pay:active{
+    transform: scale(0.8);
+}
+.pay-logos{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+.pay-logos img{
+    width: 60px;
+    height: 50px;
+}
